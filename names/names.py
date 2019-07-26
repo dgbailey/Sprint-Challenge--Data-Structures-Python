@@ -23,8 +23,8 @@ bst = BinarySearchTree()
 for name_1 in names_1:
     bst.insert(name_1)
 
-for name_2 in names_2:
-    if bst.contains(name_2):
+for name_2 in names_2:#o(n)
+    if bst.contains(name_2):#o(log(n))
         duplicates.append(name_2)
 
 
