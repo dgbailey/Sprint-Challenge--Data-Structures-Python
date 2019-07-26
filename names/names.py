@@ -15,7 +15,7 @@ duplicates = []
 # for name_1 in names_1:#O(n)
 #     for name_2 in names_2:#O(n)
 #         if name_1 == name_2:#O(1)
-#             duplicates.append(name_1)#O(1) or O(n)
+#             duplicates.append(name_1)#O(1)
 
 #so immediately this strikes me as O(n^2). The .append() operation may be trivial as it is only added and not multiplied 
 #this Binary search tree solution runs first time in O(n) time (runtime: 0.23218512535095215 seconds)(64 duplicates)
