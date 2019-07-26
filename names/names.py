@@ -20,8 +20,8 @@ duplicates = []
 #so immediately this strikes me as O(n^2). The .append() operation may be trivial as it is only added and not multiplied 
 #this Binary search tree solution runs first time in O(n) time (runtime: 0.23218512535095215 seconds)(64 duplicates)
 bst = BinarySearchTree()
-for name_1 in names_1:
-    bst.insert(name_1)
+for name_1 in names_1:#o(n)
+    bst.insert(name_1)#o(log(n)) worst o(n)
 
 for name_2 in names_2:#o(n)
     if bst.contains(name_2):#o(log(n))
